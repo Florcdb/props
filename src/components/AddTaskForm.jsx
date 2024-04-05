@@ -19,7 +19,7 @@ const AddTaskForm = ({ addTask }) => {
         type="text"
         value={taskText}
         onChange={setTextChange}
-        placeholder="Escribe una nueva tarea"
+        placeholder="Agregar nueva tarea"
       />
       <button type="submit">Agregar tarea</button>
     </form>
